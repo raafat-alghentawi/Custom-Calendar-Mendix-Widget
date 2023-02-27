@@ -1,14 +1,45 @@
 ## CustomeCalendar
-[disale days off, and holidays, specify start and end date to show in calendar]
+Calendar controller with below abilities:
+
+- Show dates in the calendar only between the start and end date.
+
+- disable weekdays based on configuration.
+
+- disable holiday dates.
 
 ## Features
-[feature highlights]
+
+- features:
+
+  - Show dates in the calendar only between the start and end date.
+ 
+  - disable weekdays based on configuration.
+
+  - disable holiday dates.
+
+- limitation:
+
+  - It builds on default styling, so if you need customer style, then you should add your style to the widget.
 
 ## Usage
-[step by step instructions]
+- in the settings tab:
 
-## Demo project
-[link to sandbox]
+  - Specify the date attribute you want to use.
+
+  - Specify the minimum date and maximum date to show the calendar view depending on them.
+
+  - Specify the date format in order to show the selected date as selected format.
+  
+- in the working days tab:
+
+  - set boolean attributes to enable or disable weekdays.
+  
+- in Holidays tab:
+  - set the data source of holidays.
+
+  - set the attribute from and to date from the holiday data source.
+
+
 
 ## Issues, suggestions and feature requests
 [link to GitHub issues]
