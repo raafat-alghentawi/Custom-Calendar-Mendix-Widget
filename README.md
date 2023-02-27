@@ -9,6 +9,7 @@ Custom calendar(datepicker) widget with below features:
 ## Installation
 
 - change the projectPath in package.json
+- ```npm install```
 
 ## Development:
 - for build: 
